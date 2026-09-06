@@ -1,0 +1,34 @@
+{
+  "engine":{
+    "node":"v24.15.0"
+  },
+  "name": "watch-backend",
+  "version": "1.0.0",
+  "description": "The youtube watch pary system backend",
+  "license": "ISC",
+  "author": "Anuj",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " nodemon -r dotenv/config --experimental-json-modules src/index.js",
+    "start": "node -experimantal-json-module src/index.js",
+    "build": "no echo \"no build step \""
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.11.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.4",
+    "multer": "^2.3.0",
+    "socket.io": "^4.8.3",
+    "uuid": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
