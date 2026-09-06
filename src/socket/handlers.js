@@ -1,4 +1,6 @@
-import { roomManager } from "../Services/RoomManager";
+import { roomManager } from "../Services/RoomManager.js";
+
+
 
 export function registerSocketHandlers(io, socket) {
   
