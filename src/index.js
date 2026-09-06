@@ -8,7 +8,7 @@ import { Server } from "socket.io";
 import jwt from "jsonwebtoken";
 
 import { registerSocketHandlers } from "./socket/handlers.js";
-import { roomManager } from "./services/RoomManager.js";
+import { roomManager } from "../services/RoomManager.js";
 
 // --------------------------------------------------
 // Basic HTTP routes
