@@ -1,4 +1,4 @@
-import { roomManager } from "../socket/handlers.json";
+import { roomManager } from "../Services/RoomManager";
 
 export function registerSocketHandlers(io, socket) {
   
